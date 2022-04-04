@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "build": "webpack --mode production --config webpack.config.js",
-    "dev": "webpack --config webpack.config.js",
+    "watch": "webpack --watch --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

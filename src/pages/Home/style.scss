@@ -1,3 +1,89 @@
-h1 {
-  color: red;
+// MENU NAV BAR
+
+
+
+.menu {
+  border: 5px solid green;
+  grid-area: head;
+}
+
+nav {
+
+  background: #24252a;
+  color: #fff;
+
+  input[type="checkbox"],
+  .hamburger-lines {
+    display: none;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+
+  .menu-items {
+    order: 2;
+    display: flex;
+
+    li {
+      list-style: none;
+      margin-left: 1.5rem;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+          color: #0088a9;
+        }
+      }
+    }
+  }
+
+  .logo {
+    order: 1;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.8rem;
+
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.content {
+  grid-area: main;
+  border: 5px solid red;
+
+  margin>
+  .about {
+    height: calc(100vh - 74px)
+  }
+}
+
+
+
+footer {
+  grid-area: "footer";
+  border: 5px solid blue;
+}
+
+@media (min-width: 768px) {
+
+  
 }
